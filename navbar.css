@@ -1,0 +1,107 @@
+html{
+    overflow-x: hidden;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+}
+.nav .endnav{
+    list-style-type: none;
+}
+
+.nav .endnav li a{
+    text-decoration: none;
+    color: white;
+    background-color: #24315e;
+    padding: 10px 20px 10px 20px;
+}
+/*============ nab bar end========= */
+
+/*============ hero section========= */
+.hero{
+    border-top: 2px solid black;
+    display: flex;
+    /* justify-content: space-evenly; */
+    background-image: url(https://itemsstore.net/html/trito/img/hero/1.jpg);
+    padding-top: 70px;   
+
+}
+
+.hero  .boy {
+    width: 1300px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: right;
+}
+.hero .boy img{
+    width: 450px;
+    /* padding: 5px 200px 500px 30px; */
+    
+    /* object-position: 0 100%; */
+    padding-right: 200px;
+    
+    
+}
+.hero .hero1 .boy {
+    display: flex;
+    position: relative;
+    bottom: 300px;
+    
+    /* justify-content:top; */
+}
+.hero .hero1{
+    padding-top: 100px ;
+    padding-left: 50px;
+}
+
+.hero .button a{
+    text-decoration: none;
+    color: blueviolet;
+    background-color: white;
+    border: 2px solid blueviolet;
+    padding: 15px 30px 15px 30px;
+} 
+.hero2 {
+    display: flex;
+    /* justify-items: center; */
+    align-items: left;
+    /* margin-right: 2px; */
+   
+}
+
+.hero2 li {
+    list-style-type: none;
+    
+}
+.hero .hero2 .hero21 {
+    display: flex;
+    align-items: center;
+}
+.hero21 li a{
+text-decoration: none;
+margin-left: 20px;
+
+}
+.hero .hero21 .hello  a { text-decoration: none;
+display: flex;
+color: blueviolet;
+background-color: white;
+border: 2px solid blueviolet;
+padding: 15px 30px 15px 30px;
+justify-self: right;
+
+}
+
+.owsomes i{
+    font-size: 24px;
+    margin: 20px;
+    background-color: white;
+    border-radius: 50%;
+    padding: 15px;
+}
+.owsomes{
+    position: absolute;
+    top: 550px;
+    left: 900px;
+    z-index: 20px;
+}
